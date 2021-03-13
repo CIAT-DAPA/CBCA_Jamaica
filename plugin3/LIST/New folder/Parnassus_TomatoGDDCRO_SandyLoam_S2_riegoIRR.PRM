@@ -1,0 +1,1183 @@
+by https://github.com/jrodriguez88
+6.0       : AquaCrop Version (March 2017)
+32811    : First day of simulation period - 31 Oct 1990
+32889    : Last day of simulation period - 17 Jan 1991
+32811    : First day of cropping period - 31 Oct 1990
+32889    : Last day of cropping period - 17 Jan 1991
+      4         : Evaporation decline factor for stage II
+      1.10      : Ke(x) Soil evaporation coefficient for fully wet and non-shaded soil surface
+      5         : Threshold for green CC below which HI can no longer increase (% cover)
+     70         : Starting depth of root zone expansion curve (% of Zmin)
+      5.00      : Maximum allowable root zone expansion (fixed at 5 cm/day)
+     -6         : Shape factor for effect water stress on root zone expansion
+     20         : Required soil water content in top soil for germination (% TAW)
+      1.0       : Adjustment factor for FAO-adjustment soil water depletion (p) by ETo
+      3         : Number of days after which deficient aeration is fully effective
+      1.00      : Exponent of senescence factor adjusting drop in photosynthetic activity of dying crop
+     12         : Decrease of p(sen) once early canopy senescence is triggered (% of p(sen))
+     10         : Thickness top soil (cm) in which soil water depletion has to be determined
+     30         : Depth [cm] of soil profile affected by water extraction by soil evaporation
+      0.30      : Considered depth (m) of soil profile for calculation of mean soil water content for CN adjustment
+      1         : CN is adjusted to Antecedent Moisture Class
+     20         : salt diffusion factor (capacity for salt diffusion in micro pores) [%]
+    100         : salt solubility [g/liter]
+     16         : shape factor for effect of soil water content gradient on capillary rise
+     12.0       : Default minimum temperature (<U+00B0>C) if no temperature file is specified
+     28.0       : Default maximum temperature (<U+00B0>C) if no temperature file is specified
+      3         : Default method for the calculation of growing degree days
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+33176    : First day of simulation period - 31 Oct 1991
+33254    : Last day of simulation period - 17 Jan 1992
+33176    : First day of cropping period - 31 Oct 1991
+33254    : Last day of cropping period - 17 Jan 1992
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+33542    : First day of simulation period - 31 Oct 1992
+33618    : Last day of simulation period - 15 Jan 1993
+33542    : First day of cropping period - 31 Oct 1992
+33618    : Last day of cropping period - 15 Jan 1993
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+33907    : First day of simulation period - 31 Oct 1993
+33985    : Last day of simulation period - 17 Jan 1994
+33907    : First day of cropping period - 31 Oct 1993
+33985    : Last day of cropping period - 17 Jan 1994
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+34272    : First day of simulation period - 31 Oct 1994
+34350    : Last day of simulation period - 17 Jan 1995
+34272    : First day of cropping period - 31 Oct 1994
+34350    : Last day of cropping period - 17 Jan 1995
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+34637    : First day of simulation period - 31 Oct 1995
+34714    : Last day of simulation period - 16 Jan 1996
+34637    : First day of cropping period - 31 Oct 1995
+34714    : Last day of cropping period - 16 Jan 1996
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+35003    : First day of simulation period - 31 Oct 1996
+35083    : Last day of simulation period - 19 Jan 1997
+35003    : First day of cropping period - 31 Oct 1996
+35083    : Last day of cropping period - 19 Jan 1997
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+35368    : First day of simulation period - 31 Oct 1997
+35444    : Last day of simulation period - 15 Jan 1998
+35368    : First day of cropping period - 31 Oct 1997
+35444    : Last day of cropping period - 15 Jan 1998
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+35733    : First day of simulation period - 31 Oct 1998
+35811    : Last day of simulation period - 17 Jan 1999
+35733    : First day of cropping period - 31 Oct 1998
+35811    : Last day of cropping period - 17 Jan 1999
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+36098    : First day of simulation period - 31 Oct 1999
+36181    : Last day of simulation period - 22 Jan 2000
+36098    : First day of cropping period - 31 Oct 1999
+36181    : Last day of cropping period - 22 Jan 2000
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+36464    : First day of simulation period - 31 Oct 2000
+36544    : Last day of simulation period - 19 Jan 2001
+36464    : First day of cropping period - 31 Oct 2000
+36544    : Last day of cropping period - 19 Jan 2001
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+36829    : First day of simulation period - 31 Oct 2001
+36908    : Last day of simulation period - 18 Jan 2002
+36829    : First day of cropping period - 31 Oct 2001
+36908    : Last day of cropping period - 18 Jan 2002
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+37194    : First day of simulation period - 31 Oct 2002
+37270    : Last day of simulation period - 15 Jan 2003
+37194    : First day of cropping period - 31 Oct 2002
+37270    : Last day of cropping period - 15 Jan 2003
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+37559    : First day of simulation period - 31 Oct 2003
+37636    : Last day of simulation period - 16 Jan 2004
+37559    : First day of cropping period - 31 Oct 2003
+37636    : Last day of cropping period - 16 Jan 2004
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+37925    : First day of simulation period - 31 Oct 2004
+38002    : Last day of simulation period - 16 Jan 2005
+37925    : First day of cropping period - 31 Oct 2004
+38002    : Last day of cropping period - 16 Jan 2005
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+38290    : First day of simulation period - 31 Oct 2005
+38369    : Last day of simulation period - 18 Jan 2006
+38290    : First day of cropping period - 31 Oct 2005
+38369    : Last day of cropping period - 18 Jan 2006
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+38655    : First day of simulation period - 31 Oct 2006
+38730    : Last day of simulation period - 14 Jan 2007
+38655    : First day of cropping period - 31 Oct 2006
+38730    : Last day of cropping period - 14 Jan 2007
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+39020    : First day of simulation period - 31 Oct 2007
+39099    : Last day of simulation period - 18 Jan 2008
+39020    : First day of cropping period - 31 Oct 2007
+39099    : Last day of cropping period - 18 Jan 2008
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+39386    : First day of simulation period - 31 Oct 2008
+39465    : Last day of simulation period - 18 Jan 2009
+39386    : First day of cropping period - 31 Oct 2008
+39465    : Last day of cropping period - 18 Jan 2009
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+39751    : First day of simulation period - 31 Oct 2009
+39827    : Last day of simulation period - 15 Jan 2010
+39751    : First day of cropping period - 31 Oct 2009
+39827    : Last day of cropping period - 15 Jan 2010
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+40116    : First day of simulation period - 31 Oct 2010
+40199    : Last day of simulation period - 22 Jan 2011
+40116    : First day of cropping period - 31 Oct 2010
+40199    : Last day of cropping period - 22 Jan 2011
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+40481    : First day of simulation period - 31 Oct 2011
+40558    : Last day of simulation period - 16 Jan 2012
+40481    : First day of cropping period - 31 Oct 2011
+40558    : Last day of cropping period - 16 Jan 2012
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+40847    : First day of simulation period - 31 Oct 2012
+40924    : Last day of simulation period - 16 Jan 2013
+40847    : First day of cropping period - 31 Oct 2012
+40924    : Last day of cropping period - 16 Jan 2013
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+41212    : First day of simulation period - 31 Oct 2013
+41287    : Last day of simulation period - 14 Jan 2014
+41212    : First day of cropping period - 31 Oct 2013
+41287    : Last day of cropping period - 14 Jan 2014
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+41577    : First day of simulation period - 31 Oct 2014
+41653    : Last day of simulation period - 15 Jan 2015
+41577    : First day of cropping period - 31 Oct 2014
+41653    : Last day of cropping period - 15 Jan 2015
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+41942    : First day of simulation period - 31 Oct 2015
+42018    : Last day of simulation period - 15 Jan 2016
+41942    : First day of cropping period - 31 Oct 2015
+42018    : Last day of cropping period - 15 Jan 2016
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+42308    : First day of simulation period - 31 Oct 2016
+42384    : Last day of simulation period - 15 Jan 2017
+42308    : First day of cropping period - 31 Oct 2016
+42384    : Last day of cropping period - 15 Jan 2017
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+42673    : First day of simulation period - 31 Oct 2017
+42751    : Last day of simulation period - 17 Jan 2018
+42673    : First day of cropping period - 31 Oct 2017
+42751    : Last day of cropping period - 17 Jan 2018
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
+43038    : First day of simulation period - 31 Oct 2018
+43114    : Last day of simulation period - 15 Jan 2019
+43038    : First day of cropping period - 31 Oct 2018
+43114    : Last day of cropping period - 15 Jan 2019
+-- 1. Climate (CLI) file
+Parnassus.CLI
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.1 Temperature (TMP) file
+Parnassus.Tnx
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.2 Reference ET (ETo) file
+Parnassus.ETo
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.3 Rain (PLU) file
+Parnassus.PLU
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+1.4 Atmospheric CO2 (CO2) file
+MaunaLoa.CO2
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 2. Crop (CRO) file
+TomatoGDD.CRO
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 3. Irrigation (IRR) file
+riego.IRR
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 4. Management (MAN) file
+(None)
+(None)
+-- 5. Soil profile (SOL) file
+SandyLoam.SOL
+D:\03_DEVELOPER\CBCA_Jamaica\aquacrop_files\
+-- 6. Groundwater (GWT) file
+(None)
+(None)
+-- 7. Initial conditions (SW0) file
+(None)
+(None)
+-- 8. Off-season conditions (OFF) file
+(None)
+(None)
